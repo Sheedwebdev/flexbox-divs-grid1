@@ -121,7 +121,7 @@ body {
   max-width: 1200px;
 }
 
-.wrapper span {
+.wrapper .flex-items span {
     font-family: 'Lora', sans-serif;
     font-size: 1.2em;
     color: #EF7807;
@@ -139,12 +139,37 @@ header,
 footer {
   height: 80px;
   width: 100%;
+  justify-content: flex-start;
 }
+
+header h1 {
+    font-family: 'Lora', sans-serif;
+    font-size: 3em;
+  }
+
+  header span {
+    font-family: 'Lora', sans-serif;
+    color: #EF7807;
+  }
 
 main {
   height: 250px;
   width: 100%;
+  border-bottom: 1px solid #EF7807;
 }
+
+main p {
+    font-size: 1.35em;
+    font-family: 'Lora', sans-serif;
+  }
+
+  main span {
+    font-size: 1.45em;
+    font-family: 'Lora', sans-serif;
+    color: #EF7807;
+  }
+
+  
 
 
 .flex-items{
@@ -163,8 +188,14 @@ main {
 #div-2 {
     border-right: 1px solid #EF7807;
     border-left: 1px solid #EF7807;
-    padding: 0px 25px;
+    padding: 0px 40px;
 }
+
+footer {
+    border-top: 1px solid #EF7807;
+}
+
+
 
 
 
